@@ -10,7 +10,7 @@ const Biography: React.FC = () => {
             <Box display="flex" flexDirection="column" alignItems="center">
                 <Avatar 
                     alt="Your Name" 
-                    src="/assets/profile.png" 
+                    src="/jason-xie-website/assets/profile.png" 
                     sx={{ width: 100, height: 100, mb: 2 }} 
                 />
                 <Typography variant="h4" component="h1" gutterBottom>

@@ -25,7 +25,7 @@ const Home = () => {
       <div className="w-4/6 py-10 justify-center mx-auto bg-black bg-opacity-20 rounded-lg" style={{ backdropFilter: 'blur(5px)' }}>
         {/* Profile Image */}
         <img
-          src="/assets/profile.png"
+          src="/jason-xie-website/assets/profile.png"
           className="w-auto h-28 rounded-full shadow-2xl shadow-gray-600 mx-auto mb-3"
         />
 
@@ -53,7 +53,7 @@ const Home = () => {
         </div>
 
         <div className="flex justify-center space-x-4">
-        <a href="/assets/resume.pdf">
+        <a href="/jason-xie-website/assets/resume.pdf">
             <Button className="hover:text-blue-400 hover:overline transition-colors duration-500">
               <Paperclip className="mr-3" width={20}/> Resume
             </Button>

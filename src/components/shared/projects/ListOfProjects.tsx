@@ -12,10 +12,10 @@ export function ListOfProjects() {
             significance="Microsoft for Startups - Sponsored"
             awardLink="https://spinor-ai.com"
             techStack="React, Python, MongoDB, AWS, Azure"
-            imagePath="/assets/spinorai/image.png"
+            imagePath="/jason-xie-website/assets/spinorai/image.png"
             liveLink="https://spinor-ai.com"
             githubLink=""
-            videoPath='/assets/spinorai/video.mp4'
+            videoPath='/jason-xie-website/assets/spinorai/video.mp4'
         />
 
         {/* B2C-Chatbots */}
@@ -27,10 +27,10 @@ export function ListOfProjects() {
             significance="Personal Project"
             awardLink=""
             techStack="Rasa, Python, HTML, CSS"
-            imagePath="/assets/b2c-chatbots/image.png"
+            imagePath="/jason-xie-website/assets/b2c-chatbots/image.png"
             liveLink=""
             githubLink="https://github.com/xjason321/b2c-chatbots"
-            videoPath='/assets/b2c-chatbots/video.mp4'
+            videoPath='/jason-xie-website/assets/b2c-chatbots/video.mp4'
         />
 
         {/* LensCook */}
@@ -42,7 +42,7 @@ export function ListOfProjects() {
             significance="Hackathon by the Sea - First Place App"
             awardLink="https://www.youtube.com/watch?v=rtS5ua4Xm2k"
             techStack="Python, Streamlit, Flutter, Firestore, RESTAPIs"
-            imagePath="/assets/lenscook/image.png"
+            imagePath="/jason-xie-website/assets/lenscook/image.png"
             liveLink=""
             githubLink=""
             videoPath=''
@@ -57,10 +57,10 @@ export function ListOfProjects() {
             significance="Congressional App Challenge - CA-26 Winner"
             awardLink="https://www.congressionalappchallenge.us/23-CA26/"
             techStack="Python, Flask"
-            imagePath="/assets/infectid/image.png"
+            imagePath="/jason-xie-website/assets/infectid/image.png"
             liveLink="https://pzerofinder.pythonanywhere.com/"
             githubLink="https://github.com/xjason321/Infect-ID"
-            videoPath='/assets/infectid/video.mp4'
+            videoPath='/jason-xie-website/assets/infectid/video.mp4'
         />
 
         {/* Trash AI */}
