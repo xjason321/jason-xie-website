@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom'; // <-- new import
 
-import { Separator } from "@/components/ui/separator";
+import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
 
 import BackgroundCircles from '@/components/shared/_global/BackgroundCircles';
