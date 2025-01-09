@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import NoteSelector from "@/components/shared/notes/NoteSelector";
 
 interface Note {
