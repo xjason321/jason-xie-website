@@ -34,10 +34,10 @@ const Home = () => {
         <div className=" text-white flex flex-col justify-start px-4">
           <div id="name" className="w-4/6 py-8 mx-auto">
             <div className="md:flex justify-center items-center">
-              <div className="w-auto mx-auto">
+              <div className="w-auto">
                 <Name />
               </div>
-              <div className="w-auto mx-auto sm:mt-1 md:mt-0">
+              <div className="w-auto sm:mt-1 md:mt-0">
                 <p className="text-center md:pl-5 text-3xl text-slate-500">
                   software_developer
                 </p>
