@@ -27,18 +27,18 @@ const Home = () => {
         {/* Profile Image */}
         <img
           src="/jason-xie-website/assets/profile.png"
-          className="w-auto h-28 rounded-full shadow-2xl shadow-gray-600 mx-auto"
+          className="w-auto h-24 rounded-full shadow-2xl shadow-gray-600 mx-auto"
         />
 
         {/* Name + Title */}
         <div className=" text-white flex flex-col justify-start px-4">
           <div id="name" className="w-4/6 py-8 mx-auto">
             <div className="md:flex justify-center items-center">
-              <div className="w-auto">
+              <div className="w-auto mx-auto">
                 <Name />
               </div>
-              <div className="w-auto sm:mt-1 md:mt-0">
-                <p className="text-center pl-5 text-3xl text-slate-500">
+              <div className="w-auto mx-auto sm:mt-1 md:mt-0">
+                <p className="text-center md:pl-5 text-3xl text-slate-500">
                   software_developer
                 </p>
               </div>
@@ -98,7 +98,7 @@ const Home = () => {
         </nav>
 
         {/* Descriptor (shows only when each item is hovered) */}
-        <div className="flex flex-col items-center text-sm text-gray-400 space-y-5 mt-5 mb-16">
+        <div className="flex flex-col items-center text-sm text-gray-400 space-y-5 mt-5 mb-12">
           {hoveredItem === "projects" && (
             <p>↵ a series of my “made-from-scratch” projects</p>
           )}
@@ -114,7 +114,9 @@ const Home = () => {
         </div>
 
         <div>
-
+          <footer className="text-xs text-zinc-600 italic">
+            <p>made from scratch by jason xie :D</p>
+          </footer>
         </div>
       </div>
 
