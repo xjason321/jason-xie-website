@@ -24,7 +24,7 @@ const NoteSelector: React.FC<NoteSelectorProps> = ({
       try {
         const response = await fetch(`/jason-xie-website/posts/${id}.md`);
         const text = await response.text();
-        const preview = text.split(" ").slice(0, 20).join(" ") + "..."; // First 20 words
+        const preview = text.split(" ").slice(0, 25).join(" ") + "..."; // First 25 words
         setPreviewText(preview);
       } catch (error) {
         console.error("Failed to fetch the file content:", error);

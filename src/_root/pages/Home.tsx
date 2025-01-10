@@ -10,6 +10,7 @@ import Name from '@/components/shared/_global/Name';
 import '@/_root/pages/Home.css';
 
 import { Paperclip, MailboxIcon } from 'lucide-react';
+import Typewriter from '@/components/shared/_global/Typewriter';
 
 const Home = () => {
   const [hoveredItem, setHovered] = useState(' ');
@@ -46,10 +47,8 @@ const Home = () => {
         </div>
 
         {/* Short Welcome */}
-        <div className="w-2/3 justify-center mx-auto mb-5">
-          Blabbering programmer with <br />a keen eye for user experience. <br />
-          <br />
-          Welcome to my website c:
+        <div className="w-2/3 justify-center mx-auto mb-5 text-pretty">
+          <Typewriter text="A developer passionate about building real solutions that benefit social good." delay={30}></Typewriter>
         </div>
 
         <div className="flex justify-center space-x-4">
