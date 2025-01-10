@@ -67,7 +67,7 @@ const Home = () => {
         <Separator className="my-4" />
 
         {/* Navigation */}
-        <nav className="flex items-center justify-center mx-auto text-lg w-4/6 mb-4 pt-4">
+        <nav className="flex items-center justify-center mx-auto text-lg w-4/6 mb-4">
           {/* Each nav item updates hoveredItem on hover */}
           <Link
             to="/projects"
