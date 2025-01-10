@@ -15,7 +15,7 @@ export function ListOfNotes() {
   useEffect(() => {
     const fetchNotes = async () => {
       try {
-        const response = await fetch('/posts/_notes.json');
+        const response = await fetch('/jason-xie-website/posts/_notes.json');
         const data = await response.json();
         setNotes(data);
       } catch (error) {

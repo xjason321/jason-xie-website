@@ -30,7 +30,7 @@ const RoutingPreview: React.FC<RoutingPreviewProps> = ({
       <Breadcrumb>
         <BreadcrumbList className="text-white text-lg">
           <BreadcrumbItem>
-            <BreadcrumbLink href="/" className="hover:text-orange-400">home</BreadcrumbLink>
+            <BreadcrumbLink href="/jason-xie-website" className="hover:text-orange-400">home</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator>
       <Slash />

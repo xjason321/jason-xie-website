@@ -22,7 +22,7 @@ export function Name() {
         <div className="flex justify-between space-x-4">
           <Avatar>
             <AvatarImage src="https://yesitstsuki.carrd.co/assets/images/image10.jpg?v=724500c0" />
-            <AvatarFallback>VC</AvatarFallback>
+            <AvatarFallback>JX</AvatarFallback>
           </Avatar>
           <div className="space-y-1">
             <h4 className="text-sm font-semibold text-white text-left">@jason_xie</h4>
