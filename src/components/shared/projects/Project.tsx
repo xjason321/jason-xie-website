@@ -62,7 +62,7 @@ const Project: React.FC<ProjectProps> = ({
       <div className="p-4">
         <h2 className="text-white text-lg font-semibold">{title}</h2>
         <p className="text-sm text-gray-400 mt-1 mb-2">Stack: {techStack}</p>
-        <p className="text-sm text-gray-400">{date}</p>
+        <p className="text-sm text-gray-500">{date}</p>
       </div>
 
       {/*

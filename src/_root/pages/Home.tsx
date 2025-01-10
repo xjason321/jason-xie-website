@@ -23,11 +23,11 @@ const Home = () => {
       {/* Social Profiles (bottom right) */}
       <Profiles isAbsolute={true}/>
 
-      <div className="w-4/6 py-10 justify-center mx-auto bg-black bg-opacity-20 rounded-lg" style={{ backdropFilter: 'blur(5px)' }}>
+      <div className="w-4/6 pt-10 justify-center mx-auto bg-black bg-opacity-20 rounded-lg" style={{ backdropFilter: 'blur(5px)' }}>
         {/* Profile Image */}
         <img
           src="/jason-xie-website/assets/profile.png"
-          className="w-auto h-28 rounded-full shadow-2xl shadow-gray-600 mx-auto mb-3"
+          className="w-auto h-28 rounded-full shadow-2xl shadow-gray-600 mx-auto"
         />
 
         {/* Name + Title */}

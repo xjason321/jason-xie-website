@@ -29,7 +29,7 @@ const Projects = () => {
 
         <Separator className="my-4" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-col-3 gap-4 items-center justify-center mx-auto my-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-col-3 gap-4 space-y-4 items-center justify-center mx-auto my-10">
 
         {/* Projects */}
         <ListOfProjects />

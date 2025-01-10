@@ -24,7 +24,7 @@ const NoteSelector: React.FC<NoteSelectorProps> = ({
       try {
         const response = await fetch(`/jason-xie-website/posts/${id}.md`);
         const text = await response.text();
-        const preview = text.split(" ").slice(0, 25).join(" ") + "..."; // First 25 words
+        const preview = text.split(" ").slice(0, 18).join(" ") + "..."; // First 25 words
         setPreviewText(preview);
       } catch (error) {
         console.error("Failed to fetch the file content:", error);
@@ -40,11 +40,11 @@ const NoteSelector: React.FC<NoteSelectorProps> = ({
       className="
         group 
         relative 
-        w-full
-        h-52
+        w-11/12
+        h-56
         mx-auto
-        bg-gray-500
-        bg-opacity-30
+        bg-zinc-900
+        bg-opacity-80
         flex flex-row
         rounded-md 
         overflow-hidden 
@@ -56,19 +56,19 @@ const NoteSelector: React.FC<NoteSelectorProps> = ({
         <img
           src={imagePath}
           alt={title}
-          className="w-96 h-full object-top object-cover"
+          className="w-1/3 h-full object-top object-cover"
         />
       )}
 
       {/* Basic Info (title + tech stack) shown always */}
-      <div className="p-4 w-full justify-center items-center my-auto mx-5">
-        <div className="flex items-center space-x-2 mt-2 mb-3 justify-center text-white font-semibold">
-          <Notebook width={20}/><h2 className="text-lg">{title}</h2>
+      <div className="p-2 w-full justify-center items-center mx-5 my-auto">
+        <div className="flex items-center space-x-2 mb-3 justify-center text-white font-semibold">
+          <h2 className="text-lg">{title}</h2>
         </div>
         <div className="flex items-center space-x-2 mt-2 mb-3 justify-center text-gray-400">
-        <CalendarDays width={20}/> <p className="text-sm ">{date}</p>
+          <CalendarDays width={20}/> <p className="text-sm ">{date}</p>
         </div>
-        <p className="text-sm text-gray-300 mt-5 text-left">{previewText}</p> {/* Preview Text */}
+        <p className="text-sm text-gray-300 mt-5 text-left overflow-y-hidden">{previewText}</p> {/* Preview Text */}
       </div>
 
       {/* Hover Overlay */}
@@ -80,6 +80,7 @@ const NoteSelector: React.FC<NoteSelectorProps> = ({
           px-6 py-4
           opacity-0 
           translate-x-2
+          cursor-pointer
           transition-all duration-300 ease-in-out
           group-hover:opacity-100 
           group-hover:translate-x-0
@@ -93,7 +94,7 @@ const NoteSelector: React.FC<NoteSelectorProps> = ({
         <img
           src={imagePath}
           alt={title}
-          className="w-96 h-full object-top object-cover"
+          className="max-w-1/3 h-full object-top object-cover"
         />
       )}
     </div>
