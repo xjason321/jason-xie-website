@@ -153,7 +153,7 @@ Error generating stack: `+i.message+`
           p-2 
           rounded-md 
           backdrop-blur-sm
-        `,children:w.jsx(Pg,{children:w.jsxs(Ng,{className:"text-white text-lg",children:[w.jsx(Ka,{children:w.jsx(Qa,{href:"/jason-xie-website",className:"hover:text-orange-400",children:"home"})}),w.jsx(jg,{children:w.jsx(Wx,{})}),w.jsx(Ka,{children:w.jsx(Qa,{className:"hover:text-off-white",children:e})})]})})}),ki=({title:e,date:t=null,description:n=null,hasAward:r=!1,significance:o=null,awardLink:i=null,techStack:l=null,imagePath:s,liveLink:a=null,githubLink:u=null,videoPath:f=null})=>w.jsxs("div",{className:`
+        `,children:w.jsx(Pg,{children:w.jsxs(Ng,{className:"text-white text-lg",children:[w.jsx(Ka,{children:w.jsx(Qa,{href:"/jason-xie-website/",className:"hover:text-orange-400",children:"home"})}),w.jsx(jg,{children:w.jsx(Wx,{})}),w.jsx(Ka,{children:w.jsx(Qa,{className:"hover:text-off-white",children:e})})]})})}),ki=({title:e,date:t=null,description:n=null,hasAward:r=!1,significance:o=null,awardLink:i=null,techStack:l=null,imagePath:s,liveLink:a=null,githubLink:u=null,videoPath:f=null})=>w.jsxs("div",{className:`
         group 
         relative 
         w-full
@@ -187,7 +187,7 @@ Error generating stack: `+i.message+`
         rounded-md 
         overflow-hidden 
         shadow-md
-      `,children:[o&&w.jsx("img",{src:t,alt:e,className:"w-96 h-full object-top object-cover"}),w.jsxs("div",{className:"p-4 w-full justify-center items-center my-auto mx-5",children:[w.jsxs("div",{className:"flex items-center space-x-2 mt-2 mb-3 justify-center text-white font-semibold",children:[w.jsx(ud,{width:20}),w.jsx("h2",{className:"text-lg",children:e})]}),w.jsxs("div",{className:"flex items-center space-x-2 mt-2 mb-3 justify-center text-gray-400",children:[w.jsx(Oh,{width:20})," ",w.jsx("p",{className:"text-sm ",children:n})]}),w.jsx("p",{className:"text-sm text-gray-300 mt-5 text-left",children:i})," "]}),w.jsxs("div",{className:`
+      `,children:[o&&w.jsx("img",{src:t,alt:e,className:"w-96 h-full object-top object-cover"}),w.jsxs("div",{className:"p-4 w-full justify-center items-center my-auto mx-5 my-3",children:[w.jsxs("div",{className:"flex items-center space-x-2 mt-2 mb-3 justify-center text-white font-semibold",children:[w.jsx(ud,{width:20}),w.jsx("h2",{className:"text-lg",children:e})]}),w.jsxs("div",{className:"flex items-center space-x-2 mt-2 mb-3 justify-center text-gray-400",children:[w.jsx(Oh,{width:20})," ",w.jsx("p",{className:"text-sm ",children:n})]}),w.jsx("p",{className:"text-sm text-gray-300 mt-5 text-left",children:i})," "]}),w.jsxs("div",{className:`
           absolute inset-0 
           flex flex-row justify-center items-center
           bg-black bg-opacity-80
