@@ -1,14 +1,14 @@
 [
   {
-    "title": "Raycasting Experiment",
-    "imagePath": "/jason-xie-website/assets/posts/image.png",
-    "date": "Jan 20, 2024",
-    "id": "Raycasting"
+    "title": "Creating a Personal Website",
+    "imagePath": "/jason-xie-website/assets/posts/personal-website.png",
+    "date": "Jan 9, 2024",
+    "id": "Website"
   },
   {
     "title": "BuckyDining Devlog",
-    "imagePath": "/jason-xie-website/assets/posts/image.png",
-    "date": "Jan 22, 2024",
+    "imagePath": "/jason-xie-website/assets/posts/buckydining.png",
+    "date": "Jan 5, 2024",
     "id": "BuckyDining"
   }
 ]
