@@ -24,7 +24,7 @@ const NoteSelector: React.FC<NoteSelectorProps> = ({
       try {
         const response = await fetch(`/jason-xie-website/posts/${id}.md`);
         const text = await response.text();
-        const preview = text.split(" ").slice(0, 30).join(" ") + "..."; // First 10 words
+        const preview = text.split(" ").slice(0, 20).join(" ") + "..."; // First 20 words
         setPreviewText(preview);
       } catch (error) {
         console.error("Failed to fetch the file content:", error);
@@ -61,7 +61,7 @@ const NoteSelector: React.FC<NoteSelectorProps> = ({
       )}
 
       {/* Basic Info (title + tech stack) shown always */}
-      <div className="p-4 w-full justify-center items-center my-auto mx-5 my-3">
+      <div className="p-4 w-full justify-center items-center my-auto mx-5">
         <div className="flex items-center space-x-2 mt-2 mb-3 justify-center text-white font-semibold">
           <Notebook width={20}/><h2 className="text-lg">{title}</h2>
         </div>
