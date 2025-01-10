@@ -22,7 +22,7 @@ const NoteSelector: React.FC<NoteSelectorProps> = ({
   useEffect(() => {
     const fetchContent = async () => {
       try {
-        const response = await fetch(`/jason-xie-website/assets/posts/${id}.md`);
+        const response = await fetch(`/jason-xie-website/posts/${id}.md`);
         const text = await response.text();
         const preview = text.split(" ").slice(0, 30).join(" ") + "..."; // First 10 words
         setPreviewText(preview);
