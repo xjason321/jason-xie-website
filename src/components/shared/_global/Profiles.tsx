@@ -41,7 +41,7 @@ const Profiles: React.FC<ProfilesProps> = ({
 
       {/* Discord */}
       <a
-        href="https://discord.gg/your-discord-invite"
+        href="https://discordapp.com/users/387438599655653376"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-400 transition-colors"

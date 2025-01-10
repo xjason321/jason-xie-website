@@ -48,7 +48,7 @@ const Home = () => {
 
         {/* Short Welcome */}
         <div className="w-2/3 justify-center mx-auto mb-5 text-pretty">
-          <Typewriter text="A developer passionate about building real solutions that benefit social good." delay={30}></Typewriter>
+          <Typewriter text="A developer passionate about building real solutions that create real benefit for social good." delay={30}></Typewriter>
         </div>
 
         <div className="flex justify-center space-x-4">
