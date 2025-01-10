@@ -10,7 +10,7 @@ const App = () => {
   return (
     <main className='h-screen'>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="" element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="notes" element={<Notes />} />
           <Route path="about" element={<About />} />
