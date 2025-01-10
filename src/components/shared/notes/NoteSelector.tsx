@@ -61,11 +61,10 @@ const NoteSelector: React.FC<NoteSelectorProps> = ({
       )}
 
       {/* Basic Info (title + tech stack) shown always */}
-      <div className="p-4 w-full justify-center items-center my-auto mx-5">
-      <div className="flex items-center space-x-2 mt-2 mb-3 justify-center text-white font-semibold">
-        <Notebook width={20}/><h2 className="text-lg">{title}</h2>
+      <div className="p-4 w-full justify-center items-center my-auto mx-5 my-3">
+        <div className="flex items-center space-x-2 mt-2 mb-3 justify-center text-white font-semibold">
+          <Notebook width={20}/><h2 className="text-lg">{title}</h2>
         </div>
-
         <div className="flex items-center space-x-2 mt-2 mb-3 justify-center text-gray-400">
         <CalendarDays width={20}/> <p className="text-sm ">{date}</p>
         </div>
