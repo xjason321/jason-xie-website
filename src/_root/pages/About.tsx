@@ -5,6 +5,7 @@ import '@/_root/pages/Home.css';
 import { Separator } from "@/components/ui/separator";
 
 import Biography from '@/components/shared/about/Biography';
+import PhotoSlider from '@/components/shared/about/PhotoSlider';
 
 const About = () => {
   return (
@@ -30,11 +31,11 @@ const About = () => {
 
         <Separator className="my-4" />
 
-        {/* Biography */}
-        <div className="items-center justify-center mx-auto my-10">
-
-            <Biography />
-        
+        {/* Biography and PhotoSlider*/}
+        <div className="items-center justify-center mx-auto my-10 space-y-4">
+          <Biography />
+          <PhotoSlider />
+          <p className="mt-2 opacity-40">(all pictures taken by me unless otherwise specified)</p>
         </div>
 
         <Separator className="my-4" />
