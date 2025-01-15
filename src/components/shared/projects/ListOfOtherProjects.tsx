@@ -66,7 +66,7 @@ export function ListOfProjects() {
         {/* Please Don't Catch Bombs */}
         <Project
             title="Please Don't Catch Bombs"
-            date="Jan 2024"
+            date="February - March 2023"
             description="A two-player fruit dropper game with winter elements and Animal Crossing Music."
             hasAward={false}
             significance="Personal Project"
@@ -81,7 +81,7 @@ export function ListOfProjects() {
         {/* Rotated Chess w/ Minimax Algorithm */}
         <Project
             title="Chess w/ Minimax Algorithm"
-            date="Jan 2024"
+            date="September 2022"
             description="A chess game with an end screen, minimax algorithm, and (of course) bugs!"
             hasAward={false}
             significance="Personal Project"
