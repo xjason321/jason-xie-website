@@ -14,6 +14,8 @@ export interface Photo {
   author: string;
 }
 
+import Autoplay from "embla-carousel-autoplay"
+
 export const images: Photo[] = [
   {
       title: "Picture with friends in Madison :D", imagePath: "friends.jpg",
@@ -51,6 +53,11 @@ const PhotoSlider: React.FC = () => {
       opts={{
         align: "start",
       }}
+      plugins={[
+        Autoplay({
+          delay: 4000,
+        })
+      ]}
       className="w-full"
     >
       <CarouselContent>
