@@ -38,7 +38,7 @@ const Biography: React.FC = () => {
                 how to pick up new frameworks and languages quickly, efficiently manage Git repositories, and 
                 more significantly, how I can apply those skills to drive success.
                 <br /><br />
-                Interested in collaborating on projects? Please don't hesitate to connect and reach out via email at xjason321@gmail.com.
+                Interested in collaborating on projects? Please don't hesitate to connect and reach out via email at xjason321@gmail.com or via cell at 805-270-0110.
             </Typography>
         </Box>
     );
