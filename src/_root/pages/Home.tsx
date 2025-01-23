@@ -9,8 +9,9 @@ import Profiles from '@/components/shared/_global/Profiles';
 import Name from '@/components/shared/_global/Name';
 import '@/_root/pages/Home.css';
 
-import { Paperclip, MailboxIcon } from 'lucide-react';
+import { Paperclip, MailboxIcon, Github, StopCircle } from 'lucide-react';
 import Typewriter from '@/components/shared/_global/Typewriter';
+import FooterRepo from '@/components/shared/_global/FooterRepo';
 
 const Home = () => {
   const [hoveredItem, setHovered] = useState(' ');
@@ -114,9 +115,7 @@ const Home = () => {
         </div>
 
         <div>
-          <footer className="text-xs text-zinc-600 italic">
-            <p>made from scratch by jason xie :D</p>
-          </footer>
+          <FooterRepo />
         </div>
       </div>
 
