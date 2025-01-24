@@ -44,7 +44,7 @@ export function ListOfProjects() {
             techStack="Python (Streamlit), Flutter, Firestore, RESTAPIs"
             imagePath="/jason-xie-website/assets/projects/lenscook/image.png"
             liveLink=""
-            githubLink=""
+            githubLink="https://github.com/SD-Coder24/LensCook"
             videoPath=''
         />
 
