@@ -28,7 +28,7 @@ const Home = () => {
         {/* Profile Image */}
         <img
           src="/jason-xie-website/assets/profile.png"
-          className="w-auto h-24 rounded-full shadow-2xl shadow-gray-600 mx-auto"
+          className="w-auto h-24 rounded-full shadow-xl shadow-stone-800  mx-auto"
         />
 
         {/* Name + Title */}

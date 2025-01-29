@@ -18,14 +18,14 @@ export function Name() {
       <HoverCardTrigger asChild>
         <Button variant="link"><p className="text-3xl">@jason_xie</p></Button>
       </HoverCardTrigger>
-      <HoverCardContent className="w-80 bg-slate-900 mb-3" side="top">
+      <HoverCardContent className="w-80 bg-stone-900 mb-3" side="top">
         <div className="flex justify-between space-x-4">
           <Avatar>
-            <AvatarImage src="https://yesitstsuki.carrd.co/assets/images/image10.jpg?v=724500c0" />
+            <AvatarImage src="/jason-xie-website/assets/profile.png" />
             <AvatarFallback>JX</AvatarFallback>
           </Avatar>
           <div className="space-y-1">
-            <h4 className="text-sm font-semibold text-white text-left">@jason_xie</h4>
+            <h4 className="text-sm font-semibold text-white text-left">Jason Xie ===</h4>
             <p className="text-sm text-white text-left">
               Blabbering programmer with a keen eye for user experience.
             </p>

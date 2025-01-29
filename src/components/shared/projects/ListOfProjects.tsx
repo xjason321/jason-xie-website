@@ -37,7 +37,7 @@ export function ListOfProjects() {
         <Project 
             title="LensCook"
             date="Jan 2024"
-            description="A web app that curates recipes based on ingredients in an uploaded image."
+            description="A web app developed during a 36-hour hackathon that curates recipes based on ingredients in an uploaded image."
             hasAward={true}
             significance="Hackathon by the Sea - First Place App"
             awardLink="https://www.youtube.com/watch?v=rtS5ua4Xm2k"
